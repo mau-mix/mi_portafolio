@@ -1,0 +1,17 @@
+.header {
+   background-color: var(--combi1);
+    padding: 2rem;
+    display: flex;
+}
+h1 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin: auto;
+}
+.icono {
+   width: 4rem;
+   height: 4rem;
+   margin: 0rem 10rem ;
+     
+}

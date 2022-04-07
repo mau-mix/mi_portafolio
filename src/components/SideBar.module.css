@@ -1,0 +1,40 @@
+.sidebar {
+    background-color: var(--combi2);
+  
+    height: 100vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo_proyectos {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+.cont_enlaces {
+    display: flex;
+    flex-direction: column;
+  
+}
+.enlaces {
+     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    background-color: var(--combi1);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 1rem;
+    padding: .3rem;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: .3rem;
+    transition-property: background-color;
+    transition-duration: .3seg;
+}
+.enlaces:hover{
+    cursor: pointer;
+    background-color: var(--combi3);
+    color: black;
+}

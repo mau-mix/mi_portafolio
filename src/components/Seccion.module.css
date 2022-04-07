@@ -1,0 +1,14 @@
+.cont_seccion {
+    height: 100vh;
+}
+.cont_seccion h1 {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    margin-top: 4rem;
+}
+.cont_seccion span {
+    color: var(--combi1);
+}
+
+ 
