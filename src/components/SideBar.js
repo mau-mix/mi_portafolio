@@ -9,7 +9,7 @@ const SideBar = () => {
            
            <div className={ styles.cont_enlaces }>
                 <a
-                    href='°#'
+                    href='https://visionary-semifreddo-bde2d2.netlify.app'
                       className={styles.enlaces}
                       >Organizador de Citas
                 </a>
