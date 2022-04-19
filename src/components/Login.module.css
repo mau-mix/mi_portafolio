@@ -1,0 +1,77 @@
+.contenedor {
+    margin: auto;
+    width: 50rem;
+    display: grid;
+    grid-template-columns: 55%  45%;
+}
+.descripcion {
+    background-color: var(--combi1);
+    padding: 2rem;
+}
+.descripcion h3 {
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.descripcion p {
+    color: white;
+    margin: 3rem 0 5rem;
+}
+.descripcion a {
+    color: white;
+    border-bottom: solid 1px white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.fomulario {
+    background-color:white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.fomulario p {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.cont_input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    
+}
+.cont_input label {
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+}
+.fomulario a {
+    font-size: .8rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 1.5rem 0 2rem ;
+    color: black;
+    border-bottom: solid 1px black;
+    width: 9.5rem;
+}
+.fomulario input {
+   all: unset;
+   border: solid 1px var(--combi1);
+   padding: .5rem;
+   background-color: white;
+   border-radius: .5rem;
+}
+.fomulario button{
+    background-color: var(--combi1);
+    width: 7rem;
+    border-radius: .5rem;
+    color: white;
+    padding: .4rem;
+    transition-property: background-color;
+    transition-duration: .3seg;
+}
+.fomulario button:hover{
+    cursor: pointer;
+    background-color: var(--combi2);
+    color: rgb(255, 250, 250);
+}

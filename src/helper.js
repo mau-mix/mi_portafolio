@@ -1,17 +1,22 @@
-import Formulario from "./components/Formulario";
-import Login from "./components/Login";
 
-export function selecTecnologia( tecnologias ) {
+
+import FormMuestra from "./components/FormMuestra";
+import Login from "./components/Login";
+export function ElegirPantallas( pantallas ) {
+   
+     let resultado;
     
-    switch( tecnologias ) {
+    switch( pantallas ) {
         case "formulario":
-           <Formulario />
+          resultado = (<FormMuestra />)
             break;
         case "login":
-            <Login />
+          resultado = (<Login />)
             break
+      
     default:
             break        
     }
-    return tecnologias
+      
+    return resultado;
 }

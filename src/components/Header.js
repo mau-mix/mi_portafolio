@@ -7,7 +7,6 @@ const Header = ({ titulo }) => {
   return (
 
     <div className={ styles.header }> 
-
        <img  
           src={icono}
           alt='logo'
@@ -15,7 +14,6 @@ const Header = ({ titulo }) => {
         />
 
           <h1 className={ styles.titulo }>{ titulo }</h1>
-       
     </div>
   )
 }

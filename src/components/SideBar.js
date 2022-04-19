@@ -21,9 +21,9 @@ const SideBar = () => {
                 </a>
 
                 <a 
-                    href='!#' 
+                    href='https://strong-bubblegum-e735b6.netlify.app' 
                     className={styles.enlaces}
-                       >control presupuesto
+                       >Imagenes Breaking Bad
                 </a>
 
                 <a

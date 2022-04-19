@@ -2,22 +2,28 @@ import { useState } from 'react';
 import Header from "./components/Header";
 import SideBar from "./components/SideBar";
 import Seccion from "./components/Seccion";
+import Footer from './components/Footer';
 
 function App() {
-
-      const [ mostrar, setMostrar ] = useState([])
-              
+     
+      const [ eligiendoPantalla, setEligiendoPantalla ]= useState("")
+           
   return (
-        <div>
-             <Header 
-                   titulo="mi portafolio"
-             />
-             <div className="contenedor">
+        <div className="contenedor">
+            <div>
+                 <Header 
+                        titulo="mi portafolio"
+                 />
+            </div>
+            <div className='contenido'>
                   <SideBar />
                   <Seccion 
-                         setMostrar={ setMostrar }
-                         mostrar={ mostrar }
+                         setEligiendoPantalla={setEligiendoPantalla}
+                         eligiendoPantalla={eligiendoPantalla}
                   />
+             </div>
+            <div>
+                  <Footer />
             </div>
         </div>
   )

@@ -1,8 +1,8 @@
 .formulario {
     display: flex;
     flex-direction: column;
-     
-     align-items: center;
+    align-items: center;
+    margin-bottom: 3rem;
 }
 .formulario select, input {
    width: 25rem;

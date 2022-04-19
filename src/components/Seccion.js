@@ -1,30 +1,22 @@
-import React from 'react'
 import styles from './Seccion.module.css'
 import Formulario from './Formulario'
-import Form from './Form'
-import Login from './Login'
+import { useState } from 'react';
 
-
-const Seccion = ({mostrar, setMostrar }) => {
-          
-  
+const Seccion = ({ setEligiendoPantalla }) => {
+   
+    const [ mostrar, setMostrar ] = useState("")
+       
   return (
     <div className={ styles.cont_seccion }>
 
       <h1>Hola soy Mauricio Campos <span> y estos son algunos de mis proyectos</span></h1>
     
          <Formulario 
-                  
-                  setMostrar={ setMostrar }
+           setEligiendoPantalla={setEligiendoPantalla}       
+            setTele={setMostrar}     
          />
-         
-         {mostrar && mostrar.length ? (
-
-           <Form />
-         ) : null }
-         
-        
-    </div>
+         <div>{mostrar}</div>
+   </div>
   )
 }
 

@@ -1,55 +1,55 @@
 import { useState } from 'react'
 import styles from './Formulario.module.css'
 import Error from './Error'
+import { ElegirPantallas } from '../helper'
 
-const Formulario = ({ setMostrar }) => {
-      
+const Formulario = ({setEligiendoPantalla, setTele}) => {
     const [ error, setError ] = useState( false )
-    
-    const [tecnologias, setTecnologias ]  = useState([
-           { formulario: "", id: 1},
-           { login: "", id: 2}
-   ])
-       
-    const { formulario, login } = tecnologias     
-    
-    const onChange = e => {
-        setTecnologias([
-            ...tecnologias,
-            e.target.value
-        ])
+    const [ pantallas, setPantallas ]  = useState("")
+
+    const { seleccionar } = pantallas     
+
+    const selecPantalla = (e) => {
+        setPantallas(e.target.value)
     }
-           
-  const onSubmit = e => {
-      e.preventDefault()
-      if( formulario === "" || login === "") {
-          setError( true )
-          return
-      }
-      setMostrar( tecnologias )
-     
-  }
+    
+    const onSubmit = e => {
+        e.preventDefault()
+        if(pantallas === "") {
+            setError( true )
+            return
+            
+        }
+         setError(false)
+         setEligiendoPantalla(pantallas)
+         const   resultado = ElegirPantallas(pantallas)
+         setTele(resultado)
+            
+    }
+
  
   return (
       <div>
            <form 
+                 className={ styles.formulario}
                  onSubmit={ onSubmit }
-                 className={ styles.formulario}>
+            >
                  {error && <Error mensaje = "Seleccione una Opcion" />}
-                <select 
-                        onChange={ onChange }
-                        name="tecnologias"
-                        id="tecnologias"
+            <select 
+                        name="seleccionar"
+                        value={ seleccionar }
+                        onChange={ selecPantalla }
                 >
                     <option value="">--Selecciona--</option>
                     <option value="formulario">Formulario</option>
                     <option value="login">Login</option>
+                   
             </select>
                     
-            <input 
-                type="submit"
-                value="mostrar"
-            />
+                <input 
+                    type="submit"
+                    value="mostrar"
+                />
             </form> 
       </div>
     
