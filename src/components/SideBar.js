@@ -15,9 +15,9 @@ const SideBar = () => {
                 </a>
 
                 <a
-                    href='°#'
+                    href='https://fancy-pothos-6d35b5.netlify.app'
                     className={styles.enlaces}
-                      >Buscador de Bebidas
+                      >Control presupuesto
                 </a>
 
                 <a 
