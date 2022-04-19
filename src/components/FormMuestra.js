@@ -12,14 +12,14 @@ const FormMuestra = () => {
                       <label>Usuario</label>
                        <input 
                             type="text"
-                            placeholder='Ingres nombre de usuario'
+                            placeholder='Nombre de usuario'
                         />
                    </div> 
                    <div className={ styles.cont_input }>
                       <label>telefono</label>
                        <input 
                             type="text"
-                            placeholder='Ingrese telefono'
+                            placeholder='Telefono'
                         />
                    </div> 
 
@@ -38,7 +38,7 @@ const FormMuestra = () => {
                    </div> 
                                         
            </form>
-                   <button>Iniciar sesion</button>
+                   <button>Iniciar sesión</button>
    </div>
   )
 }

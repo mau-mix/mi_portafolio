@@ -27,9 +27,9 @@ const SideBar = () => {
                 </a>
 
                 <a
-                     href='!#' 
+                     href='https://steady-rugelach-abfbd1.netlify.app/' 
                      className={styles.enlaces}
-                       >letras de canciones
+                       >cotizador de autos
                 </a>
             </div>
 
