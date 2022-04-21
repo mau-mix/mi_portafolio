@@ -1,17 +1,29 @@
 
 .cont_seccion {
     background-color: var(--combi4);
-    padding: 3rem;
+    width: 100%;
+    padding: 1rem;
 }
-.cont_seccion h1 {
-    font-size: 1.5rem;
-    color: white;
+@media(min-width:768px){
+    .cont_seccion{
+        width: 65%;
+    }
+}
+@media(min-width:992px){
+    .cont_seccion{
+        width: 70%;
+    }
+}
+.cont_seccion p {
     text-align: center;
-    margin-top: 4rem;
-   
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-top: 2rem;
 }
 .cont_seccion span {
     color: var(--combi1);
+    font-size: 25px;
 }
 
  

@@ -1,4 +1,15 @@
 .cont_footer {
     background-color: var(--combi1);
-    padding: 1rem;
+    padding: .5rem;
+    display: flex;
+}
+.cont_footer img {
+    width: 40px;
+    height: 40px;
+    margin-right: .5rem;
+}
+.cont_footer a {
+    color: white;
+    margin-top: .5rem 0 0;
+    text-decoration: none;
 }

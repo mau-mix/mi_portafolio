@@ -12,7 +12,7 @@ const FormMuestra = () => {
                       <label>Usuario</label>
                        <input 
                             type="text"
-                            placeholder='Nombre de usuario'
+                            placeholder='Nombre'
                         />
                    </div> 
                    <div className={ styles.cont_input }>

@@ -9,15 +9,15 @@ const Login = () => {
                <div className={ styles.descripcion}>
 
                     <h3>Registrarse</h3>
-                    <div>
-                         <p>It is a long established fact that a reader 
-                         will be distracted by the readable content of 
-                         a page when looking at its layout. The point 
-                         of using Lorem Ipsum is that it has a more-or-less 
-                         normal distribution of letters, as opposed to using
-                         'Content here, content here', making it look like
-                         readable English. Many desktop</p>
-                    </div>
+                    
+                         <p>It is a long established fact that a reader fj
+                            will be distracted by the readable content d 
+                            a page when looking at its layout. The point hj
+                            of using Lorem k Ipsum is that it has a more-or-less gg
+                            ss normal h g distribution letters, as opposed to using
+                            h here, contentj  here', making it look 
+                            readable gh English. Many desktop</p>
+                    
                     <a href='!#'>leer mas sobre noosotros</a>
 
                </div>
@@ -37,7 +37,7 @@ const Login = () => {
                               placeholder='Contraseña'
                          />
                     </div>
-                    <button>Enviar</button>
+                    <button>ENVIAR</button>
                     <a href='!#'>Obtener una cuenta</a>
                </div>
           </div>

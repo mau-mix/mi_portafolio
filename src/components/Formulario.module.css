@@ -2,22 +2,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 .formulario select, input {
-   width: 25rem;
-   padding: .7rem;
+   width: 35%;
+   padding: .2rem;
    text-align: center;
    text-transform: uppercase;
-   border-radius: .5rem;
-   margin-top: 2rem;
+   border-radius: .3rem;
+   margin-top: 1rem;
    background-color: var(--combi1);
    color: white;
    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
    monospace;
-   font-size: 1.2rem;
+   font-size: 14px;
    transition-property: background-color;
-    transition-duration: .3seg;
+   transition-duration: .3seg;
   }
    select,input:hover{
     cursor: pointer;

@@ -9,7 +9,7 @@ const Seccion = ({ setEligiendoPantalla }) => {
   return (
     <div className={ styles.cont_seccion }>
 
-      <h1>Hola soy Mauricio Campos <span> y estos son algunos de mis proyectos</span></h1>
+      <p>Hola soy Mauricio Campos <span> y estos son algunos de mis proyectos</span></p>
     
          <Formulario 
            setEligiendoPantalla={setEligiendoPantalla}       

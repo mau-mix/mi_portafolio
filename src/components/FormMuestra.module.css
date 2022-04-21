@@ -3,9 +3,16 @@
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 45rem;
+    width: 70%;
     align-items: center;
     justify-content: center;
+    padding: 0;
+    max-width: 500px;
+}
+
+.cont_form {
+    padding: .5rem;
+    width: 60%;
 }
 .contenedor h3 {
     text-align: center;
@@ -20,28 +27,28 @@
 .cont_input {
     display: flex;
     flex-direction: column;
-    padding: 1rem 10rem;
-    
 }
 .cont_input label {
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 16px;
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    
 }
 .cont_input input {
     all: unset;
     border-bottom: solid 1px var(--combi1);
-    width: 30rem;
-    margin: 0;
+    width: 100%;
+    font-size: 13px;
 }
 .contenedor button {
-    all: unset;width: 20rem;
+    all: unset;
+    width: 8rem;
     background-color: var(--combi1);
-    padding: .5rem;
+    padding: .3rem;
     margin: 2rem;
     text-align: center;
-    font-size: 1rem;
+    font-size: 12px;
     text-transform: uppercase;
     color: white;
     border-radius: .5rem;

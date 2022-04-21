@@ -10,12 +10,13 @@ function App() {
            
   return (
         <div className="contenedor">
-            <div>
+            <div className='cont_header'>
                  <Header 
                         titulo="mi portafolio"
                  />
             </div>
             <div className='contenido'>
+                  
                   <SideBar />
                   <Seccion 
                          setEligiendoPantalla={setEligiendoPantalla}
