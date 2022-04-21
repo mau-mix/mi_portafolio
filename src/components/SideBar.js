@@ -23,7 +23,7 @@ const SideBar = () => {
                 <a 
                     href='https://strong-bubblegum-e735b6.netlify.app' 
                    
-                       >Imagenes Breaking Bad
+                       >Frases Breaking Bad
                 </a>
 
                 <a
