@@ -11,7 +11,7 @@ const Seccion = ({ setEligiendoPantalla }) => {
 
       <p>Hola soy Mauricio Campos <span> y estos son algunos de mis proyectos</span></p>
     
-         <Formulario 
+         <Formulario z
            setEligiendoPantalla={setEligiendoPantalla}       
             setTele={setMostrar}     
          />

@@ -1,0 +1,40 @@
+.contenedor {
+    background-color: white;
+    margin-top: 1rem;
+    padding: 1.5rem 2.5rem ;
+    width: 60%;
+    margin: auto;
+   
+}
+  .titulo h1 {
+      text-align: center;
+      font-size: 1.5rem;
+      font: bold;
+}
+  .cont_input {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: .5rem;
+}
+  .cont_input label {
+      font-size: 15px;
+}
+  .cont_input input {
+      all: unset;
+      font-size: 12px;
+      padding: .4rem;
+      width: 100%;
+      background-color: rgb(228, 240, 228);
+  }
+   .submit {
+      width: 100%;
+      padding: .3rem;
+      margin-top: 1rem;
+      background-color: var(--combi1);
+  }
+  .alerta {
+     
+      color: rgb(209, 50, 50);
+      padding: .3rem;
+      font-size: 12px;
+  }
