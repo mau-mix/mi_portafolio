@@ -39,7 +39,7 @@
     all: unset;
     border-bottom: solid 1px var(--combi1);
     width: 100%;
-    font-size: 13px;
+    font-size: 15px;
 }
 .contenedor button {
     all: unset;
