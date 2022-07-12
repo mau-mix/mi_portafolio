@@ -1,7 +1,6 @@
 
 
 import FormFormik from "./components/FormFormik";
-import FormMuestra from "./components/FormMuestra";
 import Login from "./components/Login";
 export function ElegirPantallas( pantallas ) {
    
